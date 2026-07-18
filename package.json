@@ -8,21 +8,21 @@
     "start": "next start",
     "lint": "next lint",
     "build:cf": "opennextjs-cloudflare build",
-    "deploy": "next build --webpack && opennextjs-cloudflare build && wrangler deploy"
+    "deploy": "next build && opennextjs-cloudflare build && wrangler deploy"
   },
   "dependencies": {
     "next": "14.2.10",
     "react": "^18",
     "react-dom": "^18"
   },
-  "devDependencies": {
+ "devDependencies": {
     "@opennextjs/cloudflare": "^0.3.5",
     "@tailwindcss/postcss": "^4.3.3",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "postcss": "^8",
-    "tailwindcss": "^3.4.19",
+    "tailwindcss": "^4.3.3",
     "typescript": "^5",
     "wrangler": "^3.78.1"
   }
